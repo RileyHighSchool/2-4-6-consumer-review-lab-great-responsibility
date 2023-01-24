@@ -172,4 +172,34 @@ public class Review {
     total += sentimentVal(customerReview);
     return total;
   }
+  public static int starCount(String fileName){
+    double total = totalSentiment(fileName);
+    int star = 0;
+    if (total < -5){
+      star = 0;
+
+    } else if (total < -3){
+      star = 1;
+      
+    } else if (total < 0) {
+      star = 2;
+      
+    } else if (total < 1) {
+      star = 3;
+      
+    } else if (total < 4) {
+      star = 4;
+      
+    } else if (total >= 4){
+      star = 5;
+    }
+    System.out.println(star);
+    return star;
+  }
+  public static String fakeReview(String fileName){
+    String reviewnt = textToString("review.txt");
+    while (reviewnt.contains("*")){
+      
+    }
+  }
 }

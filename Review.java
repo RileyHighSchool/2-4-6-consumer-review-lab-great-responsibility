@@ -196,10 +196,10 @@ public class Review {
     System.out.println(star);
     return star;
   }
-  public static String fakeReview(String fileName){
-    String reviewnt = textToString("review.txt");
-    while (reviewnt.contains("*")){
-      
-    }
-  }
+  // public static String fakeReview(String fileName){
+  //   String reviewnt = textToString("review.txt");
+  //   while (reviewnt.contains("*")){
+
+  //   }
+  // }
 }

@@ -1,3 +1,39 @@
- great
- simple
- effective
+great
+simple
+effective
+clean
+excited
+good
+happy
+healthy
+sweet
+able
+adaptive
+adventurous
+affable
+agreeable
+ambitious
+amusing
+balanced
+brave
+bright
+calm
+capable
+charming
+clever
+compassionate
+considerate
+courageous
+creative
+decisive
+determined
+discreet
+dynamic
+easy-going
+enthusiastic
+exuberant
+faithful
+fearless
+friendly
+funny
+generous

@@ -196,13 +196,16 @@ public class Review {
     
     return star;
   }
-  public static String fakeReview(String fileName){
+  public static String fakeReview(String fileName, boolean isPositive){
     String review = "";
     String word = textToString("review.txt") + " ";
     while (word.contains("*")){
       review += word.substring(0,word.indexOf("*")); 
-      
-      review += randomAdjective() + " ";
+      if (isPositive){
+      review += randomPositiveAdj() + " ";
+      } else {
+        review += randomNegativeAdj() + " ";
+      }
 
       word = word.substring(word.indexOf(" ", word.indexOf("*")) + 1);
       // System.out.println(word + "\n");
